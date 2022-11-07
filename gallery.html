@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+</head>
+<style>
+
+    *{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: large;
+    }
+
+   #logo{
+    width: 5rem; 
+   } 
+
+   .container{
+    display: flex;
+    padding: 1rem 12rem;
+   }
+
+   .nav > ul > li {
+    list-style: none;
+    display: inline;
+    padding: 0px 12px;
+   }
+
+   .nav > ul{
+    margin-top: 40px;
+   }
+
+   .home{
+    height: 80vh;
+    background-image: linear-gradient(180deg, rgba(237,237,237,0) 0%, rgba(69,76,79,0.5021358885351015) 46%, rgba(7,17,21,1) 100%), url("img/background.jpg");
+    margin: 0 auto;
+    background-size: cover;
+    align-items: center;
+   }
+   .home > img{
+    width: 100%;
+   }
+
+   .home > h1{
+    font-size: 2.5rem;
+    text-align: center;
+    vertical-align: center;
+   }
+
+   .home > hr {
+    width: 50%;
+   }
+
+   .home > div {
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+   }
+
+   .downicon{
+    padding-top: 12rem;
+   }
+
+   .downicon > img {
+    width: 100px;
+   }
+
+   footer{
+    height: 10rem;
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-around;
+   }
+
+   h2{
+    font-size: 20px;
+   }
+
+   .followicons > img{
+    width: 30px;
+   }
+
+   #bottom{
+    text-align: center;
+    padding: 0 0.5rem;
+    background-color: rgb(71, 68, 68);
+    color: white;
+   }
+
+   a{
+    text-decoration: none;
+    color: black;
+   }
+
+   a:hover{
+    color: blueviolet;
+    font-weight: 600;
+    transition: weight 0.5s;
+   }
+
+   .grid{
+    margin: 0 13rem;
+    text-align: center;
+   }
+
+   .grid > img{
+    width: 350px;
+   }
+
+   h1{
+    font-size: 2rem;
+    text-align: center;
+   }
+</style>
+<body>
+    <div class="container">
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <img src="img/logo.png" alt="" id="logo">
+                    </td>
+                    <td>
+                        <b>Maulana Azad National Institute of Technology, Bhopal </b>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="sports.html">Sports</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <h1>Gallery</h1>
+    <div class="grid">
+        <img src="img/images/img1.jpeg" alt="">
+        <img src="img/images/img2.jpeg" alt="">
+        <img src="img/images/img3.jpeg" alt="">
+        <img src="img/images/img4.jpeg" alt="">
+        <img src="img/images/img5.jpeg" alt="">
+        <img src="img/images/img1.jpeg" alt="">
+        <img src="img/images/img2.jpeg" alt="">
+        <img src="img/images/img3.jpeg" alt="">
+        <img src="img/images/img4.jpeg" alt="">
+    </div>
+
+    <footer>
+        <div class="item1">
+            <h2>
+                Contact Us
+            </h2>
+            <p>
+                Address: Link Road Number 3, Near Kali Mata Mandir, Bhopal, Madhya Pradesh, India 462003 <br>Telephone : +91 755 4051000, 4052000
+            </p>
+        </div>
+        <div class="item2">
+            <h2>
+                Email ID
+            </h2>
+            <p>
+                pro[at]manit[dot]ac[dot]in <br> officeofdirector[at]manit[dot]ac[dot]in
+            </p>
+        </div>
+        <div class="item3">
+            <h2>Follow Us</h2>
+            <div class="followicons">
+                <img src="https://img.icons8.com/ios/250/FFFFFF/instagram-new.png" alt="">
+                <img src="https://img.icons8.com/ios/250/FFFFFF/facebook-new.png" alt="">
+                <img src="https://img.icons8.com/ios/250/FFFFFF/youtube-play.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
